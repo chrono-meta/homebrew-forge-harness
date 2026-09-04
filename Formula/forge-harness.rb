@@ -1,8 +1,8 @@
 class ForgeHarness < Formula
   desc "FH governance gate for Claude/Codex — machine-parseable verdict CLI"
   homepage "https://github.com/chrono-meta/forge-harness"
-  url "https://registry.npmjs.org/@chrono-meta/fh-gate/-/fh-gate-1.4.97.tgz"
-  sha256 "87dafa21e4fb104637df507e2f181c64a1ddb875b2e2842e3a05c1fed3b25bce"
+  url "https://registry.npmjs.org/@chrono-meta/fh-gate/-/fh-gate-2.15.1.tgz"
+  sha256 "50329e9b580df1c29b6021d62775f4795d1b0696a477a78c1b16453141bb9a0f"
   license "MIT"
 
   depends_on "node"
