@@ -8,14 +8,14 @@ directly, so `brew upgrade` follows npm releases.
 
 ## Install
 
-```
+```sh
 brew tap chrono-meta/forge-harness
 brew install forge-harness
 ```
 
 ## Use
 
-```
+```sh
 fh-gate                    # auto-detect from git diff
 fh-gate "src/foo.ts" full  # explicit files + level
 fh-run --skill <name>
