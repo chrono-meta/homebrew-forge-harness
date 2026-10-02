@@ -5,6 +5,12 @@ class ForgeHarness < Formula
   sha256 "3eadd69a7ad0f5022f1594e095d4a3b35342e6791e1af883121e9bd21342b4f5"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/chrono-meta/homebrew-forge-harness/releases/download/forge-harness-3.24.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "c9b0e063f5092cafff3e1636ff5454a5f661402ecb00a65c39f8d9eb79581eaa"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "dd145c7fc0f7b5ebb101389651354735b1b663201a7b25814afeb448595b484e"
+  end
+
   depends_on "node"
 
   def install
