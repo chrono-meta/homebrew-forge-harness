@@ -1,3 +1,7 @@
+> **Not maintained.** This tap stopped at forge-harness 3.24.0 and is no longer updated.
+> Install from npm instead: `npx @chrono-meta/fh-gate` (or `npm i -g @chrono-meta/fh-gate`).
+> The repository is archived (read-only); the Formula is kept so existing installs keep resolving.
+
 # homebrew-forge-harness
 
 Homebrew tap for [`forge-harness`](https://github.com/chrono-meta/forge-harness) — installs the
